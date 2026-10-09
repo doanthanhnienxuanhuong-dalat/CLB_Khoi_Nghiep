@@ -1,0 +1,1368 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>CLB Thanh Niên Khởi Nghiệp Phường Xuân Hương - Đà Lạt</title>
+  <meta name="description"
+    content="Cổng thông tin khởi nghiệp đổi mới sáng tạo Đoàn TNCS Hồ Chí Minh Phường Xuân Hương - Đà Lạt. Bệ phóng ươm mầm nông nghiệp công nghệ cao, du lịch canh nông và thương mại điện tử OCOP.">
+  <meta name="keywords"
+    content="thanh niên khởi nghiệp đà lạt, đoàn thanh niên phường xuân hương, khởi nghiệp xuân hương đà lạt, dâu tây công nghệ cao, nông nghiệp số lâm đồng, du lịch canh nông đà lạt">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="CLB Thanh Niên Khởi Nghiệp Phường Xuân Hương - Đà Lạt">
+  <meta property="og:description"
+    content="Khát vọng trẻ • Nông nghiệp công nghệ cao • Du lịch sinh thái • Làm giàu chính đáng tại Phường Xuân Hương - Đà Lạt!">
+  <meta property="og:image" content="image/dtn_xhdl.png">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="image/dtn_xhdl.png">
+
+  <!-- Google Fonts: Plus Jakarta Sans & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Remix Icon CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+
+  <!-- Main Enterprise Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Top Scroll Progress Bar (GSAP Controlled) -->
+  <div class="scroll-progress-bar" id="scrollProgressBar"></div>
+
+  <!-- ==========================================================================
+       TOP ANNOUNCEMENT BAR (GOVERNMENT & ENTERPRISE STANDARD)
+       ========================================================================== -->
+  <div class="top-announcement">
+    <div class="container top-announcement-inner">
+      <div class="top-announcement-left">
+        <span class="pulse-badge">
+          <span class="pulse-dot"></span> ĐANG MỞ ĐĂNG KÝ
+        </span>
+        <span class="top-announcement-text">🌿 Cuộc thi "Dự Án Khởi Nghiệp Nông Nghiệp Xanh & Du Lịch Canh Nông Đà Lạt
+          2026" - Hỗ trợ vốn vay NHCSXH ưu đãi!</span>
+        <a href="#events" class="announcement-link">Chi tiết &rarr;</a>
+      </div>
+      <div class="top-announcement-right">
+        <a href="tel:0988000111" class="top-hotline-btn">
+          <i class="ri-phone-fill"></i> <span>0988.000.111</span>
+        </a>
+        <div class="top-social-pills">
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="top-social-icon"
+            title="Fanpage Đoàn Phường"><i class="ri-facebook-fill"></i></a>
+          <a href="https://zalo.me" target="_blank" rel="noopener noreferrer" class="top-social-icon"
+            title="Zalo Ban Chủ Nhiệm"><i class="ri-chat-1-fill"></i></a>
+          <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" class="top-social-icon"
+            title="TikTok Nông Sản"><i class="ri-tiktok-fill"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       MOBILE NAV DRAWER BACKDROP
+       ========================================================================== -->
+  <div class="nav-backdrop"></div>
+
+  <!-- ==========================================================================
+       SITE HEADER / NAVBAR (ENTERPRISE GLASSMORPHISM)
+       ========================================================================== -->
+  <header class="site-header">
+    <div class="container nav-container">
+
+      <!-- Brand Identity: Đoàn Thanh Niên Phường Xuân Hương - Đà Lạt -->
+      <a href="#" class="brand-wrapper">
+        <img src="image/dtn_xhdl.png" alt="Logo Đoàn TNCS Hồ Chí Minh Xuân Hương Đà Lạt" class="brand-logo">
+        <div class="brand-info">
+          <div class="brand-badge">Đoàn TNCS Hồ Chí Minh • Phường Xuân Hương</div>
+          <div class="brand-title">CLB THANH NIÊN KHỞI NGHIỆP</div>
+          <div class="brand-subtitle">Phường Xuân Hương - Đà Lạt</div>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Menu -->
+      <nav class="nav-menu">
+        <a href="#hero" class="nav-link active">Trang chủ</a>
+        <a href="#about" class="nav-link">Giới thiệu</a>
+        <a href="#projects" class="nav-link">Dự án</a>
+        <a href="#events" class="nav-link">Sự kiện</a>
+        <a href="#resources" class="nav-link">Tài nguyên</a>
+        <a href="#news" class="nav-link">Tin tức</a>
+        <a href="#contact" class="nav-link">Liên hệ</a>
+
+        <!-- Drawer Action Buttons (Dành riêng cho màn hình di động) -->
+        <div class="mobile-drawer-cta">
+          <a href="#contact" class="btn btn-primary btn-sm" style="width: 100%;">
+            <i class="ri-user-add-line"></i> Đăng Ký Gia Nhập CLB
+          </a>
+          <a href="#contact" class="btn btn-accent btn-sm" style="width: 100%;">
+            <i class="ri-rocket-2-fill"></i> Nộp Đề Án Gọi Vốn
+          </a>
+          <div style="display: flex; justify-content: center; gap: 0.75rem; margin-top: 0.5rem;">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn fb"><i
+                class="ri-facebook-fill"></i></a>
+            <a href="https://zalo.me" target="_blank" rel="noopener noreferrer" class="social-icon-btn zalo"><i
+                class="ri-chat-1-fill"></i></a>
+            <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn tiktok"><i
+                class="ri-tiktok-fill"></i></a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-primary btn-sm btn-header-cta">
+          <i class="ri-user-add-line"></i> Gia Nhập CLB
+        </a>
+        <button class="hamburger-btn" aria-label="Mở Menu Điều Hướng">
+          <i class="ri-menu-4-line"></i>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       HERO SECTION (ĐÀ LẠT HIGH-IMPACT LAUNCHPAD)
+       ========================================================================== -->
+  <section class="hero-section" id="hero">
+    <div class="hero-backdrop-shapes">
+      <div class="shape-circle shape-1"></div>
+      <div class="shape-circle shape-2"></div>
+    </div>
+
+    <div class="container hero-grid">
+      <!-- Left Content -->
+      <div class="hero-content">
+        <div class="hero-pill-badge">
+          <span class="pill-sparkle">Đoàn Phường Xuân Hương</span>
+          <span>Khát Vọng Trẻ • Làm Giàu Trên Quê Hương Đà Lạt</span>
+        </div>
+
+        <h1 class="hero-title">
+          Bệ Phóng Ươm Mầm Cho <br>
+          <span class="gradient-text">Thanh Niên Khởi Nghiệp Đà Lạt</span>
+        </h1>
+
+        <p class="hero-description">
+          Đồng hành cùng đoàn viên, thanh niên Phường Xuân Hương chuyển dịch cơ cấu kinh tế:
+          từ nông nghiệp truyền thống sang nông nghiệp thông minh công nghệ cao, phát triển chuỗi giá trị du lịch canh
+          nông
+          và đưa đặc sản OCOP Đà Lạt vươn xa trên nền tảng số.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="#contact" class="btn btn-accent">
+            <i class="ri-rocket-2-fill"></i> Nộp Dự Án Nhận Hỗ Trợ Vốn
+          </a>
+          <a href="#projects" class="btn btn-outline">
+            <i class="ri-compass-3-line"></i> Khám Phá Mô Hình Tiêu Biểu
+          </a>
+        </div>
+
+        <!-- Social Proof Stats -->
+        <div class="hero-social-proof">
+          <div class="avatar-group">
+            <img src="image/leader_nam.jpg" alt="Thành viên CLB">
+            <img src="image/leader_thao.jpg" alt="Thành viên CLB">
+            <img src="image/leader_minh.jpg" alt="Thành viên CLB">
+            <div class="avatar-placeholder">+300</div>
+          </div>
+          <div class="proof-text">
+            <div class="proof-rating">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+            </div>
+            <div class="proof-desc"><strong>300+ thanh niên & chủ trang trại trẻ</strong> sinh hoạt tại Phường Xuân
+              Hương</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Visual Card -->
+      <div class="hero-visual-card border-beam-card spotlight-card">
+        <div class="hero-card-header">
+          <div class="card-org-tag">
+            <img src="image/dtn_xhdl.png" alt="Đoàn Thanh Niên Xuân Hương Đà Lạt">
+            <div>
+              <h4>Dự Án Điểm Phường Xuân Hương</h4>
+              <span>Dâu tây công nghệ cao & Du lịch sinh thái</span>
+            </div>
+          </div>
+          <div class="status-pill-live">
+            <span class="status-dot-green"></span> Đang nhân rộng
+          </div>
+        </div>
+
+        <div class="hero-featured-project">
+          <img src="image/dalat_strawberry_farm.jpg" alt="Dâu tây công nghệ cao Đà Lạt">
+          <div class="project-overlay-badge">
+            <i class="ri-leaf-line"></i> Nông Nghiệp Số Đà Lạt
+          </div>
+          <div class="project-floating-metric">
+            <div class="metric-label">Vốn Vay NHCSXH Đã Giải Ngân</div>
+            <div class="metric-val">500.000.000 đ</div>
+          </div>
+        </div>
+
+        <div class="hero-metrics-row">
+          <div class="mini-metric-box">
+            <div class="mini-metric-num">8.000m²</div>
+            <div class="mini-metric-title">Nhà màng Israel</div>
+          </div>
+          <div class="mini-metric-box">
+            <div class="mini-metric-num">1.5 Tấn</div>
+            <div class="mini-metric-title">Sản lượng/tháng</div>
+          </div>
+          <div class="mini-metric-box">
+            <div class="mini-metric-num">Top 1</div>
+            <div class="mini-metric-title">Giải OCOP Phường</div>
+          </div>
+        </div>
+
+        <div class="floating-advisor-card">
+          <div class="advisor-icon">
+            <i class="ri-shield-check-fill"></i>
+          </div>
+          <div class="advisor-text">
+            <h5>Bảo trợ chuyên môn & Tín dụng</h5>
+            <p>Đoàn Thanh Niên Phường Xuân Hương & NHCSXH TP. Đà Lạt</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       STATS COUNTER SECTION
+       ========================================================================== -->
+  <section class="stats-section">
+    <div class="container stats-grid">
+
+      <div class="stat-card">
+        <div class="stat-icon-wrapper">
+          <i class="ri-team-line"></i>
+        </div>
+        <div class="stat-content">
+          <div class="stat-number-wrapper">
+            <span class="stat-number" data-target="320">0</span>
+            <span class="stat-plus">+</span>
+          </div>
+          <div class="stat-label">Hội Viên Sinh Hoạt</div>
+          <div class="stat-subtext">Đoàn viên, thanh niên & chủ nhà vườn</div>
+        </div>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-icon-wrapper">
+          <i class="ri-lightbulb-flash-line"></i>
+        </div>
+        <div class="stat-content">
+          <div class="stat-number-wrapper">
+            <span class="stat-number" data-target="38">0</span>
+            <span class="stat-plus">+</span>
+          </div>
+          <div class="stat-label">Mô Hình Khởi Nghiệp</div>
+          <div class="stat-subtext">Nhà kính, nông sản OCOP & homestay số</div>
+        </div>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-icon-wrapper">
+          <i class="ri-funds-box-line"></i>
+        </div>
+        <div class="stat-content">
+          <div class="stat-number-wrapper">
+            <span class="stat-number" data-target="12">0</span>
+            <span class="stat-plus"> Tỷ+</span>
+          </div>
+          <div class="stat-label">Vốn Tín Dụng Chính Sách</div>
+          <div class="stat-subtext">Kênh 120 TW Đoàn & NHCSXH Đà Lạt</div>
+        </div>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-icon-wrapper">
+          <i class="ri-user-star-line"></i>
+        </div>
+        <div class="stat-content">
+          <div class="stat-number-wrapper">
+            <span class="stat-number" data-target="24">0</span>
+            <span class="stat-plus">+</span>
+          </div>
+          <div class="stat-label">Mentor & Chuyên Gia</div>
+          <div class="stat-subtext">Kỹ sư nông học & doanh nhân Đà Lạt</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       ABOUT US SECTION (SỨ MỆNH & BAN CHỦ NHIỆM PHƯỜNG XUÂN HƯƠNG)
+       ========================================================================== -->
+  <section class="about-section" id="about">
+    <div class="container">
+
+      <div class="about-grid">
+        <div class="about-image-collage">
+          <div class="about-main-img-wrap">
+            <img src="image/dalat_youth_union.jpg" alt="Thanh niên khởi nghiệp Đà Lạt" class="about-main-img">
+          </div>
+          <div class="about-inline-quote">
+            <h4><i class="ri-flag-fill"></i> Tôn Chỉ Khởi Nghiệp Xuân Hương</h4>
+            <p>"Thanh niên Đà Lạt năng động, sáng tạo, làm chủ công nghệ cao, tự tin lập nghiệp và làm giàu chính đáng
+              trên mảnh đất quê hương."</p>
+          </div>
+        </div>
+
+        <div class="about-content-col">
+          <div class="section-tag blue-tag">Về chúng tôi</div>
+          <h3>Cầu Nối Khởi Nghiệp Của Thế Hệ Trẻ Phường Xuân Hương - Đà Lạt</h3>
+          <p>
+            Dưới sự chỉ đạo của Đoàn TNCS Hồ Chí Minh Phường Xuân Hương và sự đồng hành của Ủy ban Nhân dân Phường,
+            CLB Thanh niên Khởi nghiệp được định hướng là ngôi nhà chung giúp giải quyết 3 bài toán lớn nhất của tuổi
+            trẻ:
+            <strong>Thiếu vốn - Thiếu kỹ thuật canh tác hiện đại - Thiếu đầu ra bền vững cho nông sản.</strong>
+          </p>
+
+          <div class="values-list">
+            <div class="value-item">
+              <div class="value-icon-box">
+                <i class="ri-plant-line"></i>
+              </div>
+              <div class="value-text">
+                <h4>Nông Nghiệp Xanh & Ứng Dụng IoT</h4>
+                <p>Chuyển đổi phương thức canh tác truyền thống sang tự động hóa tưới nhỏ giọt, nhà kính thông minh và
+                  hữu cơ vi sinh.</p>
+              </div>
+            </div>
+
+            <div class="value-item">
+              <div class="value-icon-box">
+                <i class="ri-hand-coin-line"></i>
+              </div>
+              <div class="value-text">
+                <h4>Bảo Lãnh Vay Vốn Ưu Đãi Tín Dụng</h4>
+                <p>Hỗ trợ đoàn viên lập phương án sản xuất khả thi để giải ngân nhanh nguồn vốn 120 TW Đoàn và NHCSXH
+                  TP. Đà Lạt.</p>
+              </div>
+            </div>
+
+            <div class="value-item">
+              <div class="value-icon-box">
+                <i class="ri-store-3-line"></i>
+              </div>
+              <div class="value-text">
+                <h4>Xúc Tiến Thương Mại & Số Hóa OCOP</h4>
+                <p>Đưa rau củ quả, hoa tươi, dâu tây và trà cà phê của thanh niên lên các sàn thương mại điện tử và
+                  chuỗi cung ứng cao cấp.</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="#contact" class="btn btn-primary">
+            <i class="ri-file-user-line"></i> Đăng Ký Gia Nhập Mạng Lưới
+          </a>
+        </div>
+      </div>
+
+      <!-- Ban Chủ Nhiệm & Cố Vấn CLB -->
+      <div class="leadership-showcase">
+        <div class="section-header" style="margin-bottom: 2rem;">
+          <div class="section-tag">Ban Chủ Nhiệm & Ban Cố Vấn</div>
+          <h3 class="section-title">Đội Ngũ Dẫn Dắt & Cố Vấn Khởi Nghiệp</h3>
+          <p class="section-subtitle">Gương mặt cán bộ Đoàn năng nổ và các chuyên gia nông nghiệp, du lịch hàng đầu tại
+            Đà Lạt.</p>
+        </div>
+
+        <div class="leadership-grid">
+          <div class="leader-card spotlight-card">
+            <div class="leader-photo-wrap">
+              <img src="image/thai_thu_thu_tham.jpg" alt="Đ/c Thái Thu Thu Thắm">
+            </div>
+            <div class="leader-info">
+              <div class="leader-name">Đ/c Thái Thu Thu Thắm</div>
+              <div class="leader-role">Bí thư Đoàn Phường • Chủ nhiệm CLB</div>
+              <div class="leader-desc">Chỉ đạo toàn diện phong trào thanh niên lập thân, lập nghiệp, kết nối chủ trương
+                chính sách của Đảng và Đoàn cấp trên.</div>
+            </div>
+          </div>
+
+          <div class="leader-card spotlight-card">
+            <div class="leader-photo-wrap">
+              <img src="image/leader_nam.jpg" alt="Đ/c Lê Hoàng Nam">
+            </div>
+            <div class="leader-info">
+              <div class="leader-name">Đ/c Lê Hoàng Nam</div>
+              <div class="leader-role">Phó Chủ Nhiệm • Ban Thẩm Định Vốn</div>
+              <div class="leader-desc">Tư vấn hoàn thiện hồ sơ dự án, kết nối nguồn vốn vay ưu đãi NHCSXH giải quyết
+                việc làm Kênh 120 TW Đoàn.</div>
+            </div>
+          </div>
+
+          <div class="leader-card spotlight-card">
+            <div class="leader-photo-wrap">
+              <img src="image/leader_thao.jpg" alt="Đ/c Trần Phương Thảo">
+            </div>
+            <div class="leader-info">
+              <div class="leader-name">Đ/c Trần Phương Thảo</div>
+              <div class="leader-role">Ủy viên BCN • Xúc Tiến OCOP & Sàn Số</div>
+              <div class="leader-desc">Hỗ trợ đưa nông sản, dâu tây công nghệ cao và đặc sản Đà Lạt của đoàn viên lên
+                sàn thương mại điện tử và chuỗi phân phối.</div>
+            </div>
+          </div>
+
+          <div class="leader-card spotlight-card">
+            <div class="leader-photo-wrap">
+              <img src="image/leader_minh.jpg" alt="Đ/c Nguyễn Hoàng Minh">
+            </div>
+            <div class="leader-info">
+              <div class="leader-name">Đ/c Nguyễn Hoàng Minh</div>
+              <div class="leader-role">Cố Vấn Kỹ Thuật Nông Nghiệp IoT</div>
+              <div class="leader-desc">Chuyên gia đồng hành chuyển giao mô hình nhà kính Israel, hệ thống tưới nhỏ giọt
+                tự động và tiêu chuẩn VietGAP/GlobalGAP.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       STARTUP PROJECTS SHOWCASE (ĐẶC SẢN KHỞI NGHIỆP ĐÀ LẠT)
+       ========================================================================== -->
+  <section class="projects-section" id="projects">
+    <div class="container">
+
+      <div class="section-header">
+        <div class="section-tag">Không Gian Khởi Nghiệp</div>
+        <h2 class="section-title">Mô Hình Khởi Nghiệp Ươm Tạo Tiêu Biểu</h2>
+        <p class="section-subtitle">Các dự án thực chiến của thanh niên Phường Xuân Hương đang được hỗ trợ hoàn thiện mô
+          hình và kết nối đầu tư.</p>
+      </div>
+
+      <!-- Live Search & Filter Bar -->
+      <div class="project-search-container">
+        <div class="project-search-bar">
+          <i class="ri-search-2-line"></i>
+          <input type="text" id="projectSearchInput"
+            placeholder="Tìm kiếm dự án (dâu tây, IoT, OCOP, du lịch, nông nghiệp...)" />
+        </div>
+      </div>
+
+      <div class="project-filter-bar">
+        <button class="filter-btn active" data-filter="all">Tất Cả Dự Án <span class="filter-count">6</span></button>
+        <button class="filter-btn" data-filter="agri">Nông Nghiệp Công Nghệ Cao <span
+            class="filter-count">2</span></button>
+        <button class="filter-btn" data-filter="tour">Du Lịch Canh Nông <span class="filter-count">1</span></button>
+        <button class="filter-btn" data-filter="tech">Chuyển Đổi Số & AI <span class="filter-count">2</span></button>
+        <button class="filter-btn" data-filter="social">Kinh Tế Xanh & Tuần Hoàn <span
+            class="filter-count">1</span></button>
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="projects-grid">
+
+        <!-- Project 1 (Flagship Model) -->
+        <div class="project-card spotlight-card border-beam-card" data-category="agri">
+          <div class="project-card-image">
+            <img src="image/dalat_strawberry_farm.jpg" alt="Dâu Tây Thủy Canh">
+            <div class="card-category-badge">Nông Nghiệp Công Nghệ Cao</div>
+            <div class="stage-badge fundraising">Đang gọi vốn</div>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-card-title">Dâu Tây Thủy Canh & IoT Xuân Hương - Đà Lạt</h3>
+            <div class="project-founder-tag">
+              <i class="ri-user-smile-line"></i> Nguyễn Văn Hùng (26 tuổi) - ĐH Đà Lạt
+            </div>
+            <p class="project-card-desc">
+              Nhà màng 8.000m² trồng dâu tây giống Nhật & Bạch Tuyết với hệ thống châm phân tự động Israel, chuẩn
+              GlobalGAP.
+            </p>
+            <div class="project-metrics-row">
+              <div class="metric-item">
+                <span class="metric-title">Nhu cầu vốn</span>
+                <span class="metric-value highlight">500.000.000 đ</span>
+              </div>
+              <div class="metric-item">
+                <span class="metric-title">Sản lượng</span>
+                <span class="metric-value">1.5 tấn/tháng</span>
+              </div>
+            </div>
+            <button class="btn btn-outline btn-sm view-project-btn" data-id="1" style="width: 100%;">
+              <i class="ri-information-line"></i> Xem Chi Tiết Dự Án
+            </button>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card spotlight-card" data-category="tour">
+          <div class="project-card-image">
+            <img src="image/dalat_farmstay_tour.jpg" alt="Farmstay Canh Nông">
+            <div class="card-category-badge">Du Lịch Canh Nông</div>
+            <div class="stage-badge commercial">Đã thương mại hóa</div>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-card-title">Eco-Farmstay & Tour Canh Nông Xuân Hương</h3>
+            <div class="project-founder-tag">
+              <i class="ri-user-smile-line"></i> Trần Thị Mai Phương (24 tuổi)
+            </div>
+            <p class="project-card-desc">
+              Khu trải nghiệm thu hoạch dâu tây, hái atisô và lưu trú homestay phong cách Đà Lạt, tạo việc làm cho 15
+              đoàn viên.
+            </p>
+            <div class="project-metrics-row">
+              <div class="metric-item">
+                <span class="metric-title">Lượt khách phục vụ</span>
+                <span class="metric-value highlight">1.800+ lượt</span>
+              </div>
+              <div class="metric-item">
+                <span class="metric-title">Đánh giá OTA</span>
+                <span class="metric-value">4.9 / 5.0 ⭐</span>
+              </div>
+            </div>
+            <button class="btn btn-outline btn-sm view-project-btn" data-id="2" style="width: 100%;">
+              <i class="ri-information-line"></i> Xem Chi Tiết Dự Án
+            </button>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card spotlight-card" data-category="tech">
+          <div class="project-card-image">
+            <img src="image/dalat_flower_farm.jpg" alt="Sàn Số OCOP">
+            <div class="card-category-badge">Chuyển Đổi Số & AI</div>
+            <div class="stage-badge incubating">Đang ươm tạo</div>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-card-title">Sàn Số OCOP & Hoa Tươi Đà Lạt 24/7</h3>
+            <div class="project-founder-tag">
+              <i class="ri-user-smile-line"></i> Lê Hoàng Nam (27 tuổi)
+            </div>
+            <p class="project-card-desc">
+              Cổng thương mại điện tử kết nối hoa tươi và rau quả sạch Phường Xuân Hương đến toàn quốc với mã QR truy
+              xuất luống trồng.
+            </p>
+            <div class="project-metrics-row">
+              <div class="metric-item">
+                <span class="metric-title">Nhà vườn tham gia</span>
+                <span class="metric-value highlight">45+ cơ sở</span>
+              </div>
+              <div class="metric-item">
+                <span class="metric-title">Giai đoạn</span>
+                <span class="metric-value">Vận hành Beta</span>
+              </div>
+            </div>
+            <button class="btn btn-outline btn-sm view-project-btn" data-id="3" style="width: 100%;">
+              <i class="ri-information-line"></i> Xem Chi Tiết Dự Án
+            </button>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card spotlight-card" data-category="social">
+          <div class="project-card-image">
+            <img src="image/dalat_biopackaging.jpg" alt="Bao bì bã cà phê">
+            <div class="card-category-badge">Kinh Tế Xanh & Tuần Hoàn</div>
+            <div class="stage-badge fundraising">Đang gọi vốn</div>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-card-title">Bio-Pack: Bao Bì Sinh Học Từ Bã Cà Phê & Atisô</h3>
+            <div class="project-founder-tag">
+              <i class="ri-user-smile-line"></i> Võ Minh Đức (25 tuổi)
+            </div>
+            <p class="project-card-desc">
+              Sản xuất ly giấy, khay hộp tự phân hủy hoàn toàn trong 45 ngày từ phụ phẩm nông nghiệp dồi dào của Đà Lạt.
+            </p>
+            <div class="project-metrics-row">
+              <div class="metric-item">
+                <span class="metric-title">Đối tác F&B</span>
+                <span class="metric-value highlight">22 quán cafe</span>
+              </div>
+              <div class="metric-item">
+                <span class="metric-title">Vốn kêu gọi</span>
+                <span class="metric-value">650 triệu đ</span>
+              </div>
+            </div>
+            <button class="btn btn-outline btn-sm view-project-btn" data-id="4" style="width: 100%;">
+              <i class="ri-information-line"></i> Xem Chi Tiết Dự Án
+            </button>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project-card spotlight-card" data-category="agri">
+          <div class="project-card-image">
+            <img src="image/dalat_arabica_coffee.jpg" alt="Cà phê đặc sản">
+            <div class="card-category-badge">Nông Nghiệp Công Nghệ Cao</div>
+            <div class="stage-badge commercial">Đã thương mại hóa</div>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-card-title">Langbiang Arabica Specialty Coffee</h3>
+            <div class="project-founder-tag">
+              <i class="ri-user-smile-line"></i> Đặng Quang Huy (28 tuổi) - Q-Grader
+            </div>
+            <p class="project-card-desc">
+              Chế biến cà phê Arabica cao sản theo phương pháp lên men tự nhiên, đạt chuẩn quốc tế SCA 85+ và chứng nhận
+              OCOP 4 sao.
+            </p>
+            <div class="project-metrics-row">
+              <div class="metric-item">
+                <span class="metric-title">Hộ nông dân liên kết</span>
+                <span class="metric-value highlight">20 hộ dân</span>
+              </div>
+              <div class="metric-item">
+                <span class="metric-title">Tăng trưởng</span>
+                <span class="metric-value">+40%/quý</span>
+              </div>
+            </div>
+            <button class="btn btn-outline btn-sm view-project-btn" data-id="5" style="width: 100%;">
+              <i class="ri-information-line"></i> Xem Chi Tiết Dự Án
+            </button>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="project-card spotlight-card" data-category="tech">
+          <div class="project-card-image">
+            <img src="image/dalat_ai_guide.jpg" alt="Trợ lý du lịch số">
+            <div class="card-category-badge">Chuyển Đổi Số & AI</div>
+            <div class="stage-badge incubating">Đang ươm tạo</div>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-card-title">Đà Lạt AI Tour Guide - Bản Đồ Canh Nông Số</h3>
+            <div class="project-founder-tag">
+              <i class="ri-user-smile-line"></i> Nguyễn Thị Thu Hà (23 tuổi)
+            </div>
+            <p class="project-card-desc">
+              Ứng dụng chỉ đường chính xác tới các vườn dâu, đồi trà và homestay thanh niên Xuân Hương, loại bỏ hoàn
+              toàn cò mồi.
+            </p>
+            <div class="project-metrics-row">
+              <div class="metric-item">
+                <span class="metric-title">Lượt người dùng thử</span>
+                <span class="metric-value highlight">5.000+ lượt</span>
+              </div>
+              <div class="metric-item">
+                <span class="metric-title">Nhu cầu vốn</span>
+                <span class="metric-value">200 triệu đ</span>
+              </div>
+            </div>
+            <button class="btn btn-outline btn-sm view-project-btn" data-id="6" style="width: 100%;">
+              <i class="ri-information-line"></i> Xem Chi Tiết Dự Án
+            </button>
+          </div>
+        </div>
+
+        <!-- Empty state khi không tìm thấy dự án -->
+        <div id="projectEmptyState" class="project-empty-state" style="display: none;">
+          <i class="ri-search-eye-line"></i>
+          <h4 style="margin-bottom: 0.5rem; color: var(--text-main);">Không tìm thấy dự án phù hợp</h4>
+          <p>Không có dự án nào khớp với từ khóa tìm kiếm của bạn. Hãy thử từ khóa khác như "dâu tây", "OCOP", "công
+            nghệ", hoặc chọn lại bộ lọc "Tất Cả Dự Án".</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       EVENTS & WORKSHOPS SECTION
+       ========================================================================== -->
+  <section class="events-section" id="events">
+    <div class="container">
+
+      <div class="section-header">
+        <div class="section-tag blue-tag">Hoạt Động & Sự Kiện</div>
+        <h2 class="section-title">Lịch Trình Đào Tạo & Workshop Khởi Nghiệp</h2>
+        <p class="section-subtitle">Các chương trình tập huấn kỹ năng số, hướng dẫn thủ tục vốn vay và kết nối nhà phân
+          phối tại Đà Lạt.</p>
+      </div>
+
+      <div class="events-grid">
+
+        <!-- Event 1 -->
+        <div class="event-card spotlight-card">
+          <div class="event-header-img">
+            <img src="image/dalat_startup_seminar.jpg" alt="Tập huấn vốn vay Đà Lạt">
+            <div class="event-date-badge">
+              <div class="event-date-day">18</div>
+              <div class="event-date-month">Tháng 11</div>
+            </div>
+            <div class="event-status-tag">Mở Đăng Ký</div>
+          </div>
+          <div class="event-body">
+            <h3 class="event-title">Hướng Dẫn Hoàn Thiện Hồ Sơ Vay Vốn NHCSXH Cho Thanh Niên Khởi Nghiệp Nông Nghiệp
+            </h3>
+            <div class="event-meta-info">
+              <div class="meta-row">
+                <i class="ri-time-line"></i> 08:30 - 11:30 | Thứ Bảy
+              </div>
+              <div class="meta-row">
+                <i class="ri-map-pin-line"></i> Hội trường UBND Phường Xuân Hương, TP. Đà Lạt
+              </div>
+            </div>
+            <div class="event-footer">
+              <div class="speaker-avatar-wrap">
+                <img src="image/thai_thu_thu_tham.jpg" alt="Diễn giả">
+                <div class="speaker-info">
+                  <span class="speaker-name">Đ/c Thái Thu Thu Thắm</span>
+                  <span class="speaker-sub">NHCSXH Phường Xuân Hương - Đà Lạt</span>
+                </div>
+              </div>
+              <a href="#contact" class="btn btn-primary btn-sm btn-event-action">Đăng Ký</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Event 2 -->
+        <div class="event-card spotlight-card">
+          <div class="event-header-img">
+            <img src="image/dalat_livestream_ocop.jpg" alt="Livestream nông sản">
+            <div class="event-date-badge">
+              <div class="event-date-day">26</div>
+              <div class="event-date-month">Tháng 11</div>
+            </div>
+            <div class="event-status-tag">Sắp Diễn Ra</div>
+          </div>
+          <div class="event-body">
+            <h3 class="event-title">Khóa Học: Kỹ Năng Livestream Bán Hoa Tươi & Nông Sản Sạch Trên TikTok Shop</h3>
+            <div class="event-meta-info">
+              <div class="meta-row">
+                <i class="ri-time-line"></i> 14:00 - 17:00 | Chủ Nhật
+              </div>
+              <div class="meta-row">
+                <i class="ri-map-pin-line"></i> Không gian Sáng tạo Thanh niên Phường Xuân Hương
+              </div>
+            </div>
+            <div class="event-footer">
+              <div class="speaker-avatar-wrap">
+                <img src="image/thai_thu_thu_tham.jpg" alt="Diễn giả">
+                <div class="speaker-info">
+                  <span class="speaker-name">Đ/c Thái Thu Thu Thắm</span>
+                  <span class="speaker-sub">E-Commerce Phường Xuân Hương</span>
+                </div>
+              </div>
+              <a href="#contact" class="btn btn-primary btn-sm btn-event-action">Đăng Ký</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Event 3 -->
+        <div class="event-card spotlight-card">
+          <div class="event-header-img">
+            <img src="image/dalat_pitch_festival.jpg" alt="Ngày hội Startup Đà Lạt">
+            <div class="event-date-badge">
+              <div class="event-date-day">15</div>
+              <div class="event-date-month">Tháng 12</div>
+            </div>
+            <div class="event-status-tag" style="background: #ff6b00;">Sự Kiện Năm</div>
+          </div>
+          <div class="event-body">
+            <h3 class="event-title">Ngày Hội Pitching "Thanh Niên Khởi Nghiệp Đổi Mới Sáng Tạo Đà Lạt 2026"</h3>
+            <div class="event-meta-info">
+              <div class="meta-row">
+                <i class="ri-time-line"></i> 08:00 - 17:30 | Cả ngày
+              </div>
+              <div class="meta-row">
+                <i class="ri-map-pin-line"></i> Trung Tâm Hoạt Động Thanh Thiếu Nhi Tỉnh Lâm Đồng
+              </div>
+            </div>
+            <div class="event-footer">
+              <div class="speaker-avatar-wrap">
+                <img src="image/thai_thu_thu_tham.jpg" alt="Ban giám khảo">
+                <div class="speaker-info">
+                  <span class="speaker-name">Đ/c Thái Thu Thu Thắm</span>
+                  <span class="speaker-sub">Hội Đồng Cố Vấn Startup Đà Lạt</span>
+                </div>
+              </div>
+              <a href="#contact" class="btn btn-accent btn-sm btn-event-action">Nộp Dự Án</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       STARTUP TOOLKIT & RESOURCES (GÓC TÀI NGUYÊN KHỞI NGHIỆP)
+       ========================================================================== -->
+  <section class="resources-section" id="resources">
+    <div class="container">
+
+      <div class="section-header">
+        <div class="section-tag">Thư Viện Tài Nguyên</div>
+        <h2 class="section-title">Bộ Công Cụ Khởi Nghiệp Cho Thanh Niên</h2>
+        <p class="section-subtitle">Tài liệu, biểu mẫu pháp lý và cẩm nang gọi vốn chuẩn chỉnh dành riêng cho hội viên
+          CLB.</p>
+      </div>
+
+      <div class="resources-grid">
+
+        <div class="resource-card spotlight-card">
+          <div class="resource-icon">
+            <i class="ri-layout-masonry-line"></i>
+          </div>
+          <h3 class="resource-title">Mô Hình Kinh Doanh Nông Nghiệp BMC</h3>
+          <p class="resource-desc">Sơ đồ 9 ô tinh gọn giúp phác thảo nhanh ý tưởng mở trang trại, tính toán chi phí nhà
+            kính và điểm hòa vốn.</p>
+          <div class="resource-download-row">
+            <span class="file-type-badge">PDF & Excel</span>
+            <button class="download-link-btn download-resource-btn" data-title="Mẫu BMC Nông Nghiệp Đà Lạt">
+              <i class="ri-download-cloud-2-line"></i> Tải về
+            </button>
+          </div>
+        </div>
+
+        <div class="resource-card spotlight-card">
+          <div class="resource-icon" style="background: #fff1e5; color: #ff6b00;">
+            <i class="ri-slideshow-line"></i>
+          </div>
+          <h3 class="resource-title">Slide Pitch Deck Gọi Vốn Shark Tank</h3>
+          <p class="resource-desc">Template thuyết trình 10 trang thuyết phục nhà đầu tư, chuẩn bị sẵn cấu trúc bài nói
+            và số liệu tài chính.</p>
+          <div class="resource-download-row">
+            <span class="file-type-badge">PowerPoint / Canva</span>
+            <button class="download-link-btn download-resource-btn" data-title="Template Pitch Deck Gọi Vốn">
+              <i class="ri-download-cloud-2-line"></i> Tải về
+            </button>
+          </div>
+        </div>
+
+        <div class="resource-card spotlight-card">
+          <div class="resource-icon" style="background: #e6f8f0; color: #10b981;">
+            <i class="ri-government-line"></i>
+          </div>
+          <h3 class="resource-title">Hồ Sơ Vay Vốn NHCSXH Kênh 120</h3>
+          <p class="resource-desc">Bộ biểu mẫu và hướng dẫn chi tiết quy trình xin phê duyệt vốn vay giải quyết việc làm
+            cho đoàn viên thanh niên.</p>
+          <div class="resource-download-row">
+            <span class="file-type-badge">Word & Quy trình</span>
+            <button class="download-link-btn download-resource-btn" data-title="Bộ Hồ Sơ Vay Vốn Kênh 120">
+              <i class="ri-download-cloud-2-line"></i> Tải về
+            </button>
+          </div>
+        </div>
+
+        <div class="resource-card spotlight-card">
+          <div class="resource-icon" style="background: #f3e8ff; color: #9333ea;">
+            <i class="ri-medal-line"></i>
+          </div>
+          <h3 class="resource-title">Cẩm Nang Đăng Ký OCOP & Nhãn Hiệu</h3>
+          <p class="resource-desc">Hướng dẫn quy trình chứng nhận VietGAP, hồ sơ đánh giá sản phẩm OCOP 3 sao - 4 sao
+            Phường Xuân Hương - Đà Lạt.</p>
+          <div class="resource-download-row">
+            <span class="file-type-badge">Ebook PDF</span>
+            <button class="download-link-btn download-resource-btn" data-title="Cẩm Nang Đăng Ký OCOP Đà Lạt">
+              <i class="ri-download-cloud-2-line"></i> Tải về
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Interactive Tool: Mô phỏng vốn vay chính sách NHCSXH Kênh 120 -->
+      <div class="loan-calculator-wrapper">
+        <div class="loan-calc-header">
+          <span class="badge-pill"><i class="ri-calculator-line"></i> Tiện Ích Đoàn Viên</span>
+          <h3>Công Cụ Ước Tính Vay Vốn NHCSXH Kênh 120</h3>
+          <p>Lãi suất chính sách ưu đãi 6.6%/năm (khoảng 0.55%/tháng) hỗ trợ thanh niên Phường Xuân Hương - Đà Lạt mở
+            rộng mô hình khởi nghiệp.</p>
+        </div>
+
+        <div class="loan-calc-grid">
+          <div class="calc-sliders">
+            <div class="slider-group">
+              <div class="slider-labels">
+                <span>Số tiền muốn vay:</span>
+                <span class="slider-val-badge" id="loanAmountDisplay">50.000.000 đ</span>
+              </div>
+              <input type="range" id="loanAmountRange" class="custom-range" min="10" max="100" step="5" value="50" />
+              <div
+                style="display: flex; justify-content: space-between; font-size: 0.72rem; color: rgba(255,255,255,0.6);">
+                <span>10 Triệu</span>
+                <span>50 Triệu</span>
+                <span>100 Triệu (Tối đa)</span>
+              </div>
+            </div>
+
+            <div class="slider-group">
+              <div class="slider-labels">
+                <span>Thời hạn vay vốn:</span>
+                <span class="slider-val-badge" id="loanTermDisplay">36 Tháng (3 năm)</span>
+              </div>
+              <input type="range" id="loanTermRange" class="custom-range" min="12" max="60" step="12" value="36" />
+              <div
+                style="display: flex; justify-content: space-between; font-size: 0.72rem; color: rgba(255,255,255,0.6);">
+                <span>12 Tháng</span>
+                <span>24 Tháng</span>
+                <span>36 Tháng</span>
+                <span>48 Tháng</span>
+                <span>60 Tháng</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="calc-results-card">
+            <div class="result-row">
+              <span>Gốc trả hàng tháng:</span>
+              <span class="result-val" id="monthlyPrincipal">1.388.889 đ</span>
+            </div>
+            <div class="result-row">
+              <span>Lãi ước tính/tháng (6.6%/năm):</span>
+              <span class="result-val" id="monthlyInterest">275.000 đ</span>
+            </div>
+            <div class="result-row total-row">
+              <span style="font-weight: 700; color: #ffffff;">Tổng trả mỗi tháng:</span>
+              <span class="result-val highlight-val" id="monthlyTotal">1.663.889 đ</span>
+            </div>
+            <button type="button" class="btn-apply-calculated-loan" id="btnApplyLoanCalc">
+              <i class="ri-send-plane-fill"></i> Đăng Ký Vay Gói Này Ngay
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       NEWS & INSIGHTS (TIN TỨC PHƯỜNG XUÂN HƯƠNG & ĐÀ LẠT)
+       ========================================================================== -->
+  <section class="news-section" id="news">
+    <div class="container">
+
+      <div class="section-header">
+        <div class="section-tag blue-tag">Tin Tức & Chính Sách</div>
+        <h2 class="section-title">Nhịp Sống Khởi Nghiệp Thanh Niên Đà Lạt</h2>
+        <p class="section-subtitle">Chính sách ưu đãi nông nghiệp công nghệ cao, gương thanh niên tiêu biểu và hoạt động
+          của Đoàn Phường.</p>
+      </div>
+
+      <div class="news-grid">
+        <div class="news-featured-card">
+          <div class="news-featured-img">
+            <img src="image/dalat_nhcsxh_signing.jpg" alt="Đoàn Phường Xuân Hương triển khai vốn vay">
+          </div>
+          <div class="news-featured-body">
+            <span class="news-tag">Chính Sách Thanh Niên 2026</span>
+            <h3 class="news-title">Đoàn Phường Xuân Hương Phối Hợp Giải Ngân Hơn 3 Tỷ Đồng Nguồn Vốn Ưu Đãi Cho Thanh
+              Niên Mở Rộng Nhà Màng Nông Nghiệp</h3>
+            <p class="news-desc">
+              Ban Thường vụ Đoàn Phường cùng Phòng Giao dịch NHCSXH TP. Đà Lạt đã tiến hành thẩm định và hỗ trợ trực
+              tiếp các hộ gia đình trẻ có đề án canh tác dâu tây và hoa lan sạch trên địa bàn phường.
+            </p>
+            <div class="news-date"><i class="ri-calendar-line"></i> Hôm nay • 1.620 lượt đọc</div>
+          </div>
+        </div>
+
+        <div class="news-list-col">
+          <div class="news-mini-item">
+            <div class="news-mini-thumb">
+              <img src="image/dalat_young_farmer.jpg" alt="Dâu tây Đà Lạt">
+            </div>
+            <div class="news-mini-content">
+              <h4>Gương sáng thanh niên Phường Xuân Hương: 9x thu nhập hàng trăm triệu đồng mỗi vụ từ dâu tây treo giá
+                thể</h4>
+              <div class="news-date"><i class="ri-time-line"></i> 2 ngày trước</div>
+            </div>
+          </div>
+
+          <div class="news-mini-item">
+            <div class="news-mini-thumb">
+              <img src="image/dalat_ocop_exhibition.jpg" alt="Kết nối thương mại">
+            </div>
+            <div class="news-mini-content">
+              <h4>Hội nghị xúc tiến thương mại nông sản OCOP: Ký kết ghi nhớ đưa hoa tươi Xuân Hương vào chuỗi hoa cưới
+                cao cấp</h4>
+              <div class="news-date"><i class="ri-time-line"></i> 5 ngày trước</div>
+            </div>
+          </div>
+
+          <div class="news-mini-item">
+            <div class="news-mini-thumb">
+              <img src="image/dalat_startup_seminar.jpg" alt="Tập huấn số hóa">
+            </div>
+            <div class="news-mini-content">
+              <h4>Khai mạc lớp tập huấn kỹ năng số: Ứng dụng Trí tuệ nhân tạo (AI) trong kiểm soát sâu bệnh dâu tây</h4>
+              <div class="news-date"><i class="ri-time-line"></i> 1 tuần trước</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CONTACT & REGISTRATION (FORM ĐĂNG KÝ PHƯỜNG XUÂN HƯƠNG)
+       ========================================================================== -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+
+      <div class="contact-wrapper">
+
+        <!-- Left Panel: Thông tin Đoàn Phường Xuân Hương -->
+        <div class="contact-info-panel">
+          <div>
+            <div class="panel-header">
+              <div class="brand-badge" style="color: #ffde59; margin-bottom: 0.5rem;">Đoàn TNCS Hồ Chí Minh</div>
+              <h3>Liên Hệ Ban Chủ Nhiệm</h3>
+              <p>Mọi thắc mắc về hồ sơ thành viên, thủ tục vay vốn ưu đãi hoặc cần kết nối mentor nông nghiệp, xin vui
+                lòng liên hệ trực tiếp với Ban Chủ Nhiệm CLB.</p>
+            </div>
+
+            <div class="contact-details-list">
+              <div class="contact-detail-row">
+                <div class="contact-icon-circle">
+                  <i class="ri-map-pin-2-fill"></i>
+                </div>
+                <div class="contact-detail-text">
+                  <h5>Trụ sở thường trực</h5>
+                  <p>Văn Phòng Đoàn Thanh Niên • UBND Phường Xuân Hương - Đà Lạt, Tỉnh Lâm Đồng</p>
+                </div>
+              </div>
+
+              <div class="contact-detail-row">
+                <div class="contact-icon-circle">
+                  <i class="ri-phone-fill"></i>
+                </div>
+                <div class="contact-detail-text">
+                  <h5>Đường dây nóng hỗ trợ khởi nghiệp</h5>
+                  <a href="tel:0988000111">0988.000.111 (Zalo Ban Chủ Nhiệm Phường Xuân Hương)</a>
+                </div>
+              </div>
+
+              <div class="contact-detail-row">
+                <div class="contact-icon-circle">
+                  <i class="ri-mail-send-fill"></i>
+                </div>
+                <div class="contact-detail-text" style="flex: 1; min-width: 0;">
+                  <h5>Hòm thư điện tử chính thức</h5>
+                  <div class="email-badge-card">
+                    <div class="email-badge-main">
+                      <i class="ri-mail-check-line email-check-icon"></i>
+                      <a href="mailto:doanphuongxuanhuongdalat@gmail.com"
+                        class="email-link-text">doanphuongxuanhuongdalat@gmail.com</a>
+                    </div>
+                    <button type="button" class="btn-copy-email" id="btnCopyEmail" title="Sao chép địa chỉ email">
+                      <i class="ri-file-copy-line"></i> <span>Sao chép email</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-connect-box">
+            <h5>Kênh Kết Nối Chính Thức</h5>
+            <div class="social-connect-btns">
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-square-btn"
+                title="Fanpage Đoàn Phường"><i class="ri-facebook-fill"></i></a>
+              <a href="https://zalo.me" target="_blank" rel="noopener noreferrer" class="social-square-btn"
+                title="Nhóm Zalo Khởi Nghiệp"><i class="ri-chat-1-fill"></i></a>
+              <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" class="social-square-btn"
+                title="Kênh TikTok Nông Sản"><i class="ri-tiktok-fill"></i></a>
+              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="social-square-btn"
+                title="YouTube Thanh Niên"><i class="ri-youtube-fill"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Panel: Dual Registration Forms -->
+        <div class="contact-form-panel">
+
+          <div class="form-tabs">
+            <button class="form-tab-btn active" data-tab="member">
+              <i class="ri-user-add-fill"></i> <span>Đăng Ký Hội Viên CLB</span>
+            </button>
+            <button class="form-tab-btn" data-tab="startup">
+              <i class="ri-rocket-2-fill"></i> <span>Nộp Đề Án Vay Vốn</span>
+            </button>
+          </div>
+
+          <!-- Form 1: Đăng ký thành viên -->
+          <form id="formMember">
+            <div class="form-group-row">
+              <div class="form-group">
+                <label>Họ và tên của bạn *</label>
+                <input type="text" name="fullname" class="form-control" placeholder="Nguyễn Văn A" required>
+              </div>
+              <div class="form-group">
+                <label>Số điện thoại (Zalo) *</label>
+                <input type="tel" name="phone" class="form-control" placeholder="09xx xxx xxx" required>
+              </div>
+            </div>
+
+            <div class="form-group-row">
+              <div class="form-group">
+                <label>Năm sinh / Tuổi *</label>
+                <input type="number" name="age" class="form-control" placeholder="2000" required>
+              </div>
+              <div class="form-group">
+                <label>Tổ dân phố / Chi đoàn</label>
+                <input type="text" name="address" class="form-control" placeholder="Tổ dân phố... P. Xuân Hương"
+                  required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>Lĩnh vực bạn quan tâm nhất tại Đà Lạt</label>
+              <select name="field" class="form-control">
+                <option value="agri">Nông nghiệp công nghệ cao (Dâu tây, hoa, rau quả)</option>
+                <option value="tourism">Du lịch canh nông & Dịch vụ Homestay</option>
+                <option value="ecommerce">Bán hàng Online & Quảng bá OCOP trên mạng</option>
+                <option value="fnb">Cà phê đặc sản & Chế biến sau thu hoạch</option>
+                <option value="other">Học hỏi kỹ năng kinh doanh & Tiếp cận vốn vay</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label>Kỳ vọng hoặc khó khăn bạn đang gặp phải</label>
+              <textarea name="goal" class="form-control" rows="3"
+                placeholder="Ví dụ: Cần vay vốn NHCSXH 100 triệu để làm nhà màng dâu tây, cần kết nối kỹ sư hướng dẫn kỹ thuật..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%; padding: 0.9rem;">
+              <i class="ri-send-plane-fill"></i> Gửi Hồ Sơ Gia Nhập CLB
+            </button>
+          </form>
+
+          <!-- Form 2: Nộp đề án gọi vốn (Ẩn mặc định) -->
+          <form id="formStartup" style="display: none;">
+            <div class="form-group-row">
+              <div class="form-group">
+                <label>Tên dự án / Mô hình khởi nghiệp *</label>
+                <input type="text" name="project_name" class="form-control"
+                  placeholder="Ví dụ: Trại dâu tây sinh thái..." required>
+              </div>
+              <div class="form-group">
+                <label>Người đại diện / Trưởng nhóm *</label>
+                <input type="text" name="leader_name" class="form-control" placeholder="Họ và tên" required>
+              </div>
+            </div>
+
+            <div class="form-group-row">
+              <div class="form-group">
+                <label>Số điện thoại liên hệ *</label>
+                <input type="tel" name="startup_phone" class="form-control" placeholder="09xx xxx xxx" required>
+              </div>
+              <div class="form-group">
+                <label>Nhu cầu vốn vay dự kiến (VNĐ)</label>
+                <input type="text" name="funding_target" class="form-control" placeholder="Ví dụ: 100.000.000 VNĐ">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>Mô tả tóm tắt mô hình & địa điểm canh tác tại Đà Lạt *</label>
+              <textarea name="summary" class="form-control" rows="3"
+                placeholder="Diện tích đất, cây trồng/sản phẩm dự kiến, doanh thu ước tính..." required></textarea>
+            </div>
+
+            <div class="form-group">
+              <label>Link tài liệu phương án sản xuất / Pitch Deck (nếu có)</label>
+              <input type="url" name="pitch_link" class="form-control" placeholder="https://drive.google.com/...">
+            </div>
+
+            <button type="submit" class="btn btn-accent" style="width: 100%; padding: 0.9rem;">
+              <i class="ri-rocket-fill"></i> Nộp Đề Án Nhận Thẩm Định Vốn
+            </button>
+          </form>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SITE FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <!-- Brand Column -->
+        <div class="footer-brand-col">
+          <div class="brand-wrapper" style="margin-bottom: 1rem;">
+            <img src="image/dtn_xhdl.png" alt="Logo Đoàn Thanh Niên Xuân Hương Đà Lạt" class="brand-logo"
+              style="width: 46px; height: 46px;">
+            <div class="brand-info">
+              <div class="brand-title" style="color: #ffffff; font-size: 1.05rem;">CLB THANH NIÊN KHỞI NGHIỆP</div>
+              <div class="brand-subtitle" style="color: #94a3b8;">Đoàn TNCS Hồ Chí Minh Phường Xuân Hương - Đà Lạt</div>
+            </div>
+          </div>
+          <p>
+            Bệ phóng vững chắc giúp thế hệ trẻ Phường Xuân Hương tự tin làm chủ công nghệ, làm giàu chính đáng từ
+            thế mạnh nông nghiệp công nghệ cao và du lịch đặc sắc của quê hương Đà Lạt.
+          </p>
+          <div class="social-connect-btns">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-square-btn"
+              title="Facebook"><i class="ri-facebook-fill"></i></a>
+            <a href="https://zalo.me" target="_blank" rel="noopener noreferrer" class="social-square-btn"
+              title="Zalo"><i class="ri-chat-1-fill"></i></a>
+            <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" class="social-square-btn"
+              title="TikTok"><i class="ri-tiktok-fill"></i></a>
+          </div>
+        </div>
+
+        <!-- Quick Navigation -->
+        <div class="footer-links-col">
+          <h4 class="footer-col-title">Khám Phá</h4>
+          <ul class="footer-links-list">
+            <li class="footer-link-item"><a href="#about"><i class="ri-arrow-right-s-line"></i> Giới thiệu Đoàn
+                Phường</a></li>
+            <li class="footer-link-item"><a href="#projects"><i class="ri-arrow-right-s-line"></i> Mô hình khởi nghiệp
+                tiêu biểu</a></li>
+            <li class="footer-link-item"><a href="#events"><i class="ri-arrow-right-s-line"></i> Lịch sự kiện &
+                Workshop</a></li>
+            <li class="footer-link-item"><a href="#resources"><i class="ri-arrow-right-s-line"></i> Thư viện tài
+                nguyên</a></li>
+            <li class="footer-link-item"><a href="#news"><i class="ri-arrow-right-s-line"></i> Bản tin khởi nghiệp Đà
+                Lạt</a></li>
+          </ul>
+        </div>
+
+        <!-- Startup Resources -->
+        <div class="footer-links-col">
+          <h4 class="footer-col-title">Chính Sách Hỗ Trợ</h4>
+          <ul class="footer-links-list">
+            <li class="footer-link-item"><a href="#resources"><i class="ri-arrow-right-s-line"></i> Vay vốn NHCSXH Kênh
+                120</a></li>
+            <li class="footer-link-item"><a href="#resources"><i class="ri-arrow-right-s-line"></i> Chứng nhận OCOP Đà
+                Lạt</a></li>
+            <li class="footer-link-item"><a href="#resources"><i class="ri-arrow-right-s-line"></i> Mẫu kế hoạch kinh
+                doanh nông nghiệp</a></li>
+            <li class="footer-link-item"><a href="#contact"><i class="ri-arrow-right-s-line"></i> Tư vấn chuyển đổi số
+                nhà vườn</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Support -->
+        <div class="footer-links-col">
+          <h4 class="footer-col-title">Trực Tuyến</h4>
+          <ul class="footer-links-list">
+            <li class="footer-link-item" style="color: #cbd5e1;"><i class="ri-time-line"></i> Tiếp nhận: 07:30 - 17:00
+              (T2 - T6)</li>
+            <li class="footer-link-item"><a href="tel:0988000111"><i class="ri-phone-line"></i> Hotline:
+                0988.000.111</a></li>
+            <li class="footer-link-item"><a href="mailto:doanphuongxuanhuongdalat@gmail.com"><i
+                  class="ri-mail-line"></i> doanphuongxuanhuongdalat@gmail.com</a></li>
+            <li class="footer-link-item" style="color: #cbd5e1;"><i class="ri-map-pin-line"></i> UBND Phường Xuân Hương
+              - Đà Lạt</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom-bar">
+        <div>
+          © 2026 Đoàn TNCS Hồ Chí Minh Phường Xuân Hương - Đà Lạt.
+        </div>
+        <div>
+          Bản quyền thuộc Câu Lạc Bộ Thanh Niên Khởi Nghiệp Phường Xuân Hương • Tối ưu lưu trữ GitHub Pages
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       MODAL: CHI TIẾT DỰ ÁN KHỞI NGHIỆP
+       ========================================================================== -->
+  <div class="modal-overlay" id="projectModal">
+    <div class="modal-container">
+      <div class="modal-header">
+        <div>
+          <span id="modalProjectCategory" class="card-category-badge"
+            style="position: static; display: inline-block; margin-bottom: 0.35rem; background: #0056b3;"></span>
+          <h3 id="modalProjectTitle" style="font-size: 1.25rem;">Tên Dự Án</h3>
+        </div>
+        <button class="modal-close-btn" aria-label="Đóng"><i class="ri-close-line"></i></button>
+      </div>
+
+      <div class="modal-body">
+        <div
+          style="background: #f8fafc; padding: 1rem; border-radius: 12px; margin-bottom: 1.25rem; border: 1px solid #e2e8f0;">
+          <div style="font-size: 0.85rem; color: #475569; margin-bottom: 0.35rem;">
+            <strong>Nhà sáng lập:</strong> <span id="modalProjectFounder"></span>
+          </div>
+          <div style="font-size: 0.85rem; color: #475569; margin-bottom: 0.35rem;">
+            <strong>Tình trạng:</strong> <span id="modalProjectStatus" style="color: #ff6b00; font-weight: 700;"></span>
+          </div>
+          <div style="font-size: 0.85rem; color: #475569;">
+            <strong>Nhu cầu vốn:</strong> <span id="modalProjectTarget"
+              style="color: #0056b3; font-weight: 800;"></span>
+          </div>
+        </div>
+
+        <h4 style="font-size: 1rem; margin-bottom: 0.5rem;">Tóm Tắt Mô Hình Canh Tác / Kinh Doanh</h4>
+        <p id="modalProjectSummary"
+          style="font-size: 0.9rem; color: #475569; line-height: 1.6; margin-bottom: 1.25rem;"></p>
+
+        <h4 style="font-size: 1rem; margin-bottom: 0.65rem;">Điểm Nổi Bật & Tiêu Chuẩn Đạt Được</h4>
+        <ul id="modalProjectHighlights" style="list-style: none; padding-left: 0;"></ul>
+
+        <div
+          style="margin-top: 1.75rem; padding-top: 1.25rem; border-top: 1px solid #e2e8f0; display: flex; gap: 0.75rem;">
+          <a href="#contact" class="btn btn-accent" style="flex: 1;"
+            onclick="document.getElementById('projectModal').classList.remove('active'); document.body.style.overflow='';">
+            <i class="ri-shake-hands-line"></i> Kết Nối Đầu Tư / Mentor Phường
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       REACTBITS: FLOATING DOCK (ENTERPRISE QUICK-ACTION LAUNCHPAD)
+       ========================================================================== -->
+  <div class="floating-dock-wrapper" id="floatingDock">
+    <a href="#contact" class="dock-item-btn dock-accent" aria-label="Nộp Đề Án Khởi Nghiệp">
+      <i class="ri-rocket-2-fill"></i>
+      <span class="dock-tooltip">Nộp Đề Án Vốn</span>
+    </a>
+    <a href="#loanCalculatorSection" class="dock-item-btn dock-green" aria-label="Tính Khoản Vay NHCSXH">
+      <i class="ri-calculator-line"></i>
+      <span class="dock-tooltip">Tính Lãi Vay 6.6%</span>
+    </a>
+    <a href="tel:0988000111" class="dock-item-btn" aria-label="Hotline Đoàn Phường">
+      <i class="ri-phone-fill"></i>
+      <span class="dock-tooltip">Hotline 0988.000.111</span>
+    </a>
+    <button class="dock-item-btn" id="btnDockCopyEmail" aria-label="Sao Chép Email">
+      <i class="ri-mail-send-line"></i>
+      <span class="dock-tooltip">Chép Email Đoàn Phường</span>
+    </button>
+    <button class="dock-item-btn" id="dockBackToTop" aria-label="Lên Đầu Trang">
+      <i class="ri-arrow-up-line"></i>
+      <span class="dock-tooltip">Lên Đầu Trang</span>
+    </button>
+  </div>
+
+  <!-- GSAP & ScrollTrigger Animation Engine (Enterprise Standard) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <!-- Enterprise Engine -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
